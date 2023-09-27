@@ -19,8 +19,6 @@ import imageJeffreyWebb from '@/images/team/jeffrey-webb.jpg'
 import imageKathrynMurphy from '@/images/team/kathryn-murphy.jpg'
 import imageLeonardKrasner from '@/images/team/leonard-krasner.jpg'
 import imageLeslieAlexander from '@/images/team/leslie-alexander.jpg'
-import imageMichaelFoster from '@/images/team/michael-foster.jpg'
-import imageEdzusKass from '@/images/team/edzus-kass.jpg'
 import imageWhitneyFrancis from '@/images/team/whitney-francis.jpg'
 import { loadArticles } from '@/lib/mdx'
 
@@ -64,11 +62,6 @@ const team = [
         name: 'Leslie Alexander',
         role: 'Co-Founder / CEO',
         image: { src: imageLeslieAlexander },
-      },
-      {
-        name: 'Edžus Kašs',
-        role: 'Head of IT department',
-        image: { src: imageEdzusKass },
       },
       {
         name: 'Dries Vincent',
