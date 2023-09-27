@@ -8,7 +8,6 @@ import { List, ListItem } from '@/components/List'
 import { SectionIntro } from '@/components/SectionIntro'
 import { StylizedImage } from '@/components/StylizedImage'
 import imageContainers from '@/images/containers.jpg'
-import imageTransport from '@/images/logistics_solutions.jpg'
 import { loadCaseStudies } from '@/lib/mdx'
 
 function Clients() {
@@ -19,7 +18,7 @@ function Clients() {
           <h2 className="text-center text-xl font-display font-semibold tracking-wider text-white sm:text-left">
             We understand that the success of any business
             relies on the efficient movement of goods and the seamless
-            coordination of supply chains. That's why we are proud to offer our
+            coordination of supply chains. That is why we are proud to offer our
             comprehensive logistics services, designed to meet all your transportation
             needs and propel your business forward.
           </h2>
