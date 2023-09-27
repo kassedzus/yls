@@ -59,11 +59,6 @@ function Header({
           onMouseEnter={() => setLogoHovered(true)}
           onMouseLeave={() => setLogoHovered(false)}
         >
-          <Logomark
-            className="h-8 sm:hidden"
-            invert={invert}
-            filled={logoHovered}
-          />
           <Logo
             className="hidden h-8 sm:block"
             invert={invert}
@@ -71,9 +66,6 @@ function Header({
           />
         </Link>
         <div className="flex items-center gap-x-8">
-          <Button href="/contact" invert={invert}>
-            Contact us
-          </Button>
           <button
             ref={toggleRef}
             type="button"
@@ -95,6 +87,9 @@ function Header({
               )}
             />
           </button>
+          <Button href="/contact" invert={invert}>
+            Contact us
+          </Button>
         </div>
       </div>
     </Container>
@@ -111,7 +106,7 @@ function NavigationRow({ children }) {
   )
 }
 
-function NavigationItem({ href, children }) {
+function NavigationItem({ href, children, description }) {
   return (
     <Link
       href={href}
@@ -119,6 +114,8 @@ function NavigationItem({ href, children }) {
     >
       {children}
       <span className="absolute inset-y-0 -z-10 w-screen bg-neutral-900 opacity-0 transition group-odd:right-0 group-even:left-0 group-hover:opacity-100" />
+      <br/>
+      <span className="text-lg text-gray-400">{description}</span>
     </Link>
   )
 }
@@ -127,12 +124,12 @@ function Navigation() {
   return (
     <nav className="mt-px font-display text-5xl font-medium tracking-tight text-white">
       <NavigationRow>
-        <NavigationItem href="/work">Our Work</NavigationItem>
-        <NavigationItem href="/about">About Us</NavigationItem>
+        <NavigationItem href="/services#lcl" description="Less than Container Load">LCL</NavigationItem>
+        <NavigationItem href="/services#fcl" description="Full Container Load">FCL</NavigationItem>
       </NavigationRow>
       <NavigationRow>
-        <NavigationItem href="/process">Our Process</NavigationItem>
-        <NavigationItem href="/blog">Blog</NavigationItem>
+        <NavigationItem href="/services#avio">Avio Freight</NavigationItem>
+        <NavigationItem href="/services#customs">Customs Procedures</NavigationItem>
       </NavigationRow>
     </nav>
   )
