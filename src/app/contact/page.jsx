@@ -61,11 +61,11 @@ function ContactForm() {
           />
             <TextInput label="Phone" type="tel" name="phone" autoComplete="tel" />
           <TextInput
-            label="Cargo"
+            label="Cargo description"
             name="cargo"
             autoComplete="cargo"
           />
-          <TextInput label="Routing" name="routing" />
+          <TextInput label="Origin - Destination" name="routing" />
         </div>
         <Button type="submit" className="mt-10">
           Send mail
@@ -100,10 +100,6 @@ function ContactDetails() {
       </Border>
 
       <Border className="mt-16 pt-16">
-        <h2 className="font-display text-base font-semibold text-neutral-950">
-          Follow us
-        </h2>
-        <SocialMedia className="mt-6" />
       </Border>
     </FadeIn>
   )

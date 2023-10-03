@@ -46,7 +46,7 @@ export function Logo({
   return (
       <Image
           alt=""
-          className="w-full h-20 bg-neutral-100 object-cover grayscale-[50%]"
+          className="w-full h-20 bg-neutral-100 object-cover grayscale-[50%] rounded-2xl"
           src={imageLogo}
       />
   )
