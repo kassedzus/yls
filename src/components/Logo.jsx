@@ -1,7 +1,6 @@
 import { useId } from 'react'
 import clsx from 'clsx'
 import imageLogo from '@/images/logo.png'
-import imageTransport from "@/images/logistics_solutions.jpg";
 import Image from "next/image";
 
 export function Logomark({ invert = false, filled = false, ...props }) {

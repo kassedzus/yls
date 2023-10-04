@@ -63,7 +63,7 @@ function Services() {
 
 export const metadata = {
   description:
-    'We are a development studio working at the intersection of design and technology.',
+    'We are a logistics company helping you provide the best solutions for your precious cargo.',
 }
 
 export default async function Home() {
@@ -83,7 +83,7 @@ export default async function Home() {
               Solutions
             </h1>
             <p className="mt-6 text-xl text-neutral-600">
-              Your Trusted Partner in Streamlined Transportation Solutions!
+              Your Trusted Partner in Streamlined Transportation Solutions.
             </p>
         </FadeIn>
       </Container>
