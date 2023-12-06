@@ -18,7 +18,6 @@ import { Container } from '@/components/Container'
 import { Footer } from '@/components/Footer'
 import { GridPattern } from '@/components/GridPattern'
 import { Logo, Logomark } from '@/components/Logo'
-import { SocialMedia } from '@/components/SocialMedia'
 
 const RootLayoutContext = createContext(null)
 
@@ -199,6 +198,8 @@ function RootLayoutInner({ children }) {
               />
             </div>
             <Navigation />
+            <div className="h-32 bg-black">
+            </div>
           </motion.div>
         </motion.div>
       </header>
