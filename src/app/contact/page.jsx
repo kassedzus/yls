@@ -67,7 +67,7 @@ function ContactDetails() {
               YLS@YLS.LV
           </div>
           <div className="font-display text-base font-semibold text-neutral-950">
-              +371 29999999
+              +371 28851065
           </div>
       </div>
     </FadeIn>
