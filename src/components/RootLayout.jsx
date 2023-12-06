@@ -198,8 +198,6 @@ function RootLayoutInner({ children }) {
               />
             </div>
             <Navigation />
-            <div className="h-32 bg-black">
-            </div>
           </motion.div>
         </motion.div>
       </header>
