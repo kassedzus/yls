@@ -62,12 +62,33 @@ function ContactForm() {
 function ContactDetails() {
   return (
     <FadeIn>
-      <div className="">
-          <div className="font-display text-base font-semibold text-neutral-950 mb-10">
-              YLS@YLS.LV
+      <div className="grid grid-cols-1 md:grid-cols-2 leading-8 gap-6">
+          <div className="">
+              <div className="font-semibold">
+                  Our legal address
+              </div>
+              <div>
+                  YLS Ltd.
+              </div>
+              <div>
+                  #40203520862
+              </div>
+              <div>
+                  Riga, Nicgales street 46 - 143
+              </div>
+              <div>
+                  LV-1035, Latvia
+              </div>
           </div>
-          <div className="font-display text-base font-semibold text-neutral-950">
-              +371 28851065
+          <div className="order-first md:order-last">
+              <div className="font-display text-base  text-neutral-950 mb-6">
+                  <div className="font-semibold">E-mail</div>
+                  <div>YLS@YLS.LV</div>
+              </div>
+              <div className="font-display text-base text-neutral-950">
+                  <div className="font-semibold">Phone</div>
+                  <div>+371 28851065</div>
+              </div>
           </div>
       </div>
     </FadeIn>
