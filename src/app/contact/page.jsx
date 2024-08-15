@@ -71,13 +71,13 @@ function ContactDetails() {
                   YLS Ltd.
               </div>
               <div>
-                  #40203520862
+                  VAT #LV40203520862
               </div>
               <div>
-                  Riga, Nicgales street 46 - 143
+                  Ventspils, Talsu street 62 - 42
               </div>
               <div>
-                  LV-1035, Latvia
+                  LV-3602, Latvia
               </div>
           </div>
           <div className="order-first md:order-last">
@@ -107,9 +107,9 @@ export default function Contact() {
         <p>We can’t wait to hear from you.</p>
       </PageIntro>
 
-      <Container className="mt-24 sm:mt-32 lg:mt-40">
-        <div className="grid grid-cols-1 gap-x-8 gap-y-24 lg:grid-cols-2">
-          <ContactForm />
+      <Container className="mt-28">
+        <div className="">
+          {/*<ContactForm />*/}
           <ContactDetails />
         </div>
       </Container>
